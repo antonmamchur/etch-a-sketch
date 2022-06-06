@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sketchpad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 100%;
+    border: 1px solid ;
+}
+
+.square {
+    
+    box-shadow: 1px 1px 1px black;
+
+}
+
+.item-hover {
+    background-color: blue;
+}
+
+.btn-change {
+    align-self: flex-start;
+}
